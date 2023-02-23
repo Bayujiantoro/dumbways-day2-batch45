@@ -109,6 +109,11 @@ textarea {
     margin-top: 10px;
     margin-left: 70%;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
 a {
     color: white;
     text-decoration: none;
